@@ -3,22 +3,34 @@ let cnt=0;
 let lft=0;
 let tp=0;
 
+
+
 var f1 = ()=>{
+    
     
 // mov=mov+5;
 // cnt=cnt+5;
+    
+    
 cnt=cnt+10;
 if(cnt<25){
     lft=lft+5;
 
+    
+    
     // rgt=rgt+10;
     // btm=btm+10;
+    
+    
     
     document.getElementById("no").style.left=lft+'vw';
 
     // document.getElementById("no").style.right=rgt+'vw';
     // document.getElementById("no").style.bottom=btm+'vh';
    
+    
+    
+    
 }else if(cnt>=25 && cnt<=50){
     tp=tp+5;
     
@@ -36,7 +48,11 @@ else if(cnt>=75  && cnt<100){
 else if(cnt>100){
     cnt=0;
 }
+    
+    
 }
+
+
 
 
 let f3=()=>{
@@ -64,6 +80,9 @@ let f2=()=>{
     // }, 15000);
 
     
+    
+    
+    
 }
 // let t =0;
 // let f2=()=>{
@@ -75,10 +94,13 @@ let f2=()=>{
 //     }else if(t>=10 && t<20)
 //     {
 //         lisa1.src="img/crush4.gif";
-
-       
 //     }
 // }
+
+
+
+
+
 
 
 // function f2() {
@@ -90,5 +112,12 @@ let f2=()=>{
 //     if (time > 3) {
 //         lisa1.src = "img/crush1.gif";
 //     }
-
 // }
+
+
+
+
+
+
+
+
