@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -6,7 +5,6 @@
     text-decoration: none;
     transition: .25s ;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
 }
 .container{
     display: flex;
@@ -19,7 +17,6 @@
 #no{
     position: relative;
     z-index: 2;
-
 }
 button{
     color: rgb(252, 250, 250);
@@ -28,14 +25,12 @@ button{
     /* border-radius: 10px; */
     /* text-shadow: 3px 2px 1px white; */
     /* transition: 1s; */
-   
 }
 /* button:hover{
     box-shadow: 2px 3px 4px rgb(50, 49, 49);
     border-radius: 10px;
     color: black;
     background-color: rgb(127, 127, 127);
-
 } */
 #heart{
     width: auto;
@@ -44,12 +39,10 @@ button{
     z-index: -4;
     /* animation-name: heart; */
     animation:heart 1s linear 1s infinite forwards;
-
 }
 @keyframes heart {
     0%{
         height: 20vh;
-
     }
     50%{
         height: 25vh;
@@ -57,7 +50,6 @@ button{
     100%{
         height: 20vh;
     }
-    
 }
 .form{
     text-align: center;
@@ -70,7 +62,6 @@ h1{
     color: rgb(246, 29, 65);
     text-shadow: 3px 4px 5px rgb(34, 34, 34);
 }
-
 img{
     width: auto;
     height: 50vh;
@@ -91,7 +82,6 @@ img{
     color: rgb(252, 23, 23);
     font-size: 30px;
     margin: 5vh;
-
 }
 #lisa1{
     position: relative;
@@ -101,8 +91,7 @@ img{
     animation: lisa 3s linear 0s infinite forwards;
 }
 @keyframes lisa {
-  0%{
-    
+  0%{  
     box-shadow: 12px 15px 15px black;
 height: 40vh;
 border-radius: 2px;
@@ -111,24 +100,16 @@ transform: rotate3d(50,40,10, 0deg);
   50%{
     height: 60vh;
     border-radius: 30px;
-
     box-shadow: 20px 14px 19px black;
-
     transform:  rotate3d(30,40,30,180deg);
 }
-
   100%{
     height: 40vh;
     border-radius: 2px;
-
     box-shadow: 12px 15px 12px black;
-   
     transform: rotate3d(20,10,40,360deg);
-
   }
-
 }
-
 .white{
     background-color: rgb(254, 254, 254);
     height: 12vh;
@@ -146,19 +127,12 @@ transform: rotate3d(50,40,10, 0deg);
     100%{
         width: 0vw;
     }
-    
 }
-
-
 @media (max-width:700px) {
-
     .container{
         display: none;
     }
     .box{
         display: flex;
     }
-
-
- 
 }
